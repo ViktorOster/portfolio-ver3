@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd54e79e7d8a3a5413130cd463833691",
+    "revision": "a3710db7cf1a9da6f5ae72b61f6ef27c",
     "url": "/portfolio-ver3/index.html"
   },
   {
-    "revision": "b49cbcc39866603cde7e",
-    "url": "/portfolio-ver3/static/css/main.1a04f05d.chunk.css"
+    "revision": "55e36e9614a8ec041e30",
+    "url": "/portfolio-ver3/static/css/main.55bfa4fc.chunk.css"
   },
   {
     "revision": "6bb75b3c6c306ed265f4",
     "url": "/portfolio-ver3/static/js/2.df613710.chunk.js"
   },
   {
-    "revision": "b49cbcc39866603cde7e",
-    "url": "/portfolio-ver3/static/js/main.53c0ea44.chunk.js"
+    "revision": "55e36e9614a8ec041e30",
+    "url": "/portfolio-ver3/static/js/main.9fdf5ddd.chunk.js"
   },
   {
     "revision": "8ca464a41bcf64d9c260",
@@ -36,20 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-ver3/static/media/avatar illustration transparentB simp.91832372.svg"
   },
   {
-    "revision": "621aaf253cec1d41643c0dd3f1e5cde2",
-    "url": "/portfolio-ver3/static/media/baseline-code-color.621aaf25.svg"
-  },
-  {
     "revision": "d9f2b78148792d1ab7a5f5ff51d3146f",
     "url": "/portfolio-ver3/static/media/baseline-code.d9f2b781.svg"
   },
   {
     "revision": "239378c755faba393e0d4cf7d9f0a527",
     "url": "/portfolio-ver3/static/media/eAuction_laptop.239378c7.png"
-  },
-  {
-    "revision": "64341e3ffefd0de44e84a15a51e2478d",
-    "url": "/portfolio-ver3/static/media/iconfinder_globe-color.64341e3f.svg"
   },
   {
     "revision": "f8f7550bd9f14fe4532face2f44133fe",
