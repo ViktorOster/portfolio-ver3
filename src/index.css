@@ -4,6 +4,13 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
 }
+.bg-green {
+  background: #04974A !important;
+}
+.section__description {
+  margin: 8px 0 24px 0;
+  opacity: 0.8;
+}
 
 button {
   background: none;
@@ -75,12 +82,13 @@ section {
   background-color: #2757be;
   background-color: #0A9849;
   border-radius: 50%;
-  height: 100%;
   overflow: hidden;
   display: flex;
   align-items: unset;
   justify-content: center;
   margin-left: auto;
+  height: 170px;
+  width: 170px;
 }
 .about__img {
   height: 110%;
@@ -89,25 +97,24 @@ section {
   font-weight: bold;
   font-size: 1.1em;
 }
-.about__profession {
-  font-style: italic;
+
+.about__text {
+  margin-bottom: 20px;
 }
 /* CONTACT */
 #contact {
   text-align: center;
   margin: 48px auto 32px auto;
 }
+.contact__email {
+  font-size: 19px;
+}
 
 /* OVERRIDE BOOTSTRAPS NARROW CONTENT MEDIA QUERIES */
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
   .container {
       max-width: 1350px !important;
   }
-  .about__img-container {
-    height: 180px;
-    width: 180px;
-}
-
 }
 @media screen and (max-width: 1200px) and (min-width: 992px){
   .container {
@@ -118,32 +125,22 @@ section {
       width: 150px;
   }
 }
+@media screen and (max-width: 992px) {
+  .about__img-container {
+    margin: auto auto 16px auto;
+  }
+}
 @media screen and (max-width: 992px) and (min-width: 768px){
   .container {
       max-width: 720px !important;
-  }
-  .about__img-container {
-      height: 200px;
-      width: 200px;
-      margin: auto auto 16px auto;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 576px){
   .container {
       max-width: 540px !important;
   }
-  .about__img-container {
-    height: 200px;
-    width: 200px;
-    margin: auto auto 16px auto;
-  }
 }
 @media screen and (max-width: 576px){
-  .about__img-container {
-    height: 150px;
-    width: 150px;
-    margin: auto auto 16px auto;
-  }
   .about {
     padding-top: 110px;
    }

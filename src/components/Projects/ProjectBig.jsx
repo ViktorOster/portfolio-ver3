@@ -15,7 +15,7 @@ class ProjectBig extends Component {
                         {this.props.description}</p>
                     <p className="project__techs">
                         {this.props.techs.map((tech, i) => {
-                            return (<span key={i}>{tech}, </span>)
+                            return (<span className="tech bg-green" key={i}>{tech}</span>)
                         })}
                     </p>
                     <button className="btn btn-primary project__button btn-left"><a href={this.props.urlLive}><img className="icon-small"

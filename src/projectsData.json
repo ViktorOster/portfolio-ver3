@@ -1,7 +1,7 @@
 [
     {
         "name": "Stock Application",
-        "description": "Stock portfolio management system that supports multiple portfolios and stocks. Stock data is fetched from Alpha Vantage API. Multiple stocks can be graphed simultaneously inside a user specified time window. Portfolios and stocks are stored in localstorage.",
+        "description": "Built a stock portfolio management system with React.js that supports multiple portfolios and stocks. Stock data is fetched from Alpha Vantage API. Multiple stocks can be graphed simultaneously inside a user specified time window. Portfolios and stocks are stored in localstorage.",
         "technologies": [
             "React.js",
             "JavaScript",
@@ -16,7 +16,7 @@
     },
     {
         "name": "Wave Drawing Synth",
-        "description": "A synth based on user drawn wave shapes, made with the Web Audio API. Points can be added to a canvas to create custom wave shapes that can be played using the keyboard or touch controls on mobile. Tested to be working with the Chrome browser on desktop and mobile.",
+        "description": "Built a synthesizer with the Web Audio API that works in the browser. The synthesizer is able to play wave shapes drawn by the user. The user can add points to an HTML5 canvas, which are then converted to samples which can be played using the Web Audio API. The synthesizer can be played using the keyboard or touch controls on mobile. The synthesizer is fully responsize and adapts to all screen sizes and works in the Chrome browser on desktop and mobile.",
         "technologies": [
             "JavaScript",
             "HTML5",
@@ -32,11 +32,12 @@
         "name": "Clothing Store",
         "description": "Clothing store that sells jackets and shoes. Product data is stored in a JavaScript object on a Node backend and fed to Pug templates. The site is responsive and has a simple search functionality. Shopping cart items are stored in localstorage.",
         "technologies": [
-            "Pug",
+            "Pug.js",
             "Node.js",
+            "Express.js",
             "JavaScript",
             "HTML5",
-            "Sass",
+            "SCSS",
             "CSS3"
         ],
         "category": "web",
@@ -65,9 +66,9 @@
         "name": "Developer Job Dashboard",
         "description": "A Dasboard built with React for browsing and analyzing collected job data. Apart from browsing archived jobs, the application can be used to visualize keyword data and trends. The data is fetched from API an endpoint on a Node backend running Express. The data is stored in mongoDB Atlas cloud database.",
         "technologies": [
-            "React",
-            "Node",
-            "Express",
+            "React.js",
+            "Node.js",
+            "Express.js",
             "MongoDB",
             "HTML5",
             "CSS3"
@@ -80,7 +81,7 @@
     },
     {
         "name": "Medical Dashboard",
-        "description": "A simple patient dashboard for a fictional medical company. Users can register or login to view their healthcare related data and fill in questionnaires. Data is stored in an SQL database. Use email: mike@mail.com, password: password to login and view data.",
+        "description": "Built a simple patient dashboard-type website. Users can register or login to view their healthcare related data and fill in questionnaires. Data is stored in an SQL database. Use email: mike@mail.com, password: password to login and view data.",
         "technologies": [
             "Laravel",
             "PHP",
@@ -95,8 +96,8 @@
         "importance": 2
     },
     {
-        "name": "E-Auction Site",
-        "description": "An E-Auction site built with Python and Django. Has functionalities such as posting and bidding on posts, translation, logging in and creating and updating a user. The site is deployed to pythonanywhere and the data is stored in an SQLite3 database",
+        "name": "Auction Website",
+        "description": "Built an auction website using Python and the Django framework as a part of a university course. Has functionalities such as posting and bidding on posts, translation, logging in and creating and updating a user. The site is deployed to pythonanywhere and the data is stored in an SQLite3 database",
         "technologies": [
             "Django",
             "Python",
@@ -111,11 +112,13 @@
         "importance": 1
     },
     {
-        "name": "Sketchboard and Gallery",
+        "name": "Paint App/Gallery",
         "description": "A sketchboard / gallery application using HTML5 canvas that allows users to draw and post drawings to a public gallery. The drawings are stored in JSON-format in a simple NodeJS backend.",
         "technologies": [
             "Node.js",
+            "Express.js",
             "JavaScript",
+            "JSON",
             "HTML5",
             "CSS3"
         ],

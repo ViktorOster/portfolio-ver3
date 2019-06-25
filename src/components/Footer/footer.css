@@ -1,0 +1,13 @@
+footer {
+    text-align: center;
+    background: #56657A;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+footer a {
+    color: skyblue;
+    text-decoration: underline;
+}
+footer div {
+    padding: 4px 0;
+}

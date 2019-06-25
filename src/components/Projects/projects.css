@@ -9,10 +9,18 @@
 }
 .project-small__title {
     font-weight: 600;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
+    font-size: 19px;
 }
-.project__techs {
-    font-style: italic;
+.tech {
+    background: #04974A;
+    background: #57667B;
+    color: white;
+    border-radius: 17px;
+    font-size: 12px;
+    padding: 2px 8px;
+    font-weight: bold;
+    margin-right: 4px;
 }
 .project__img {
     box-sizing: border-box;
@@ -30,6 +38,6 @@
     display: none;
 }
 .project-small__techs {
-    margin-bottom: 2px;
+    margin-bottom: 12px;
     font-size: 15px;
 }
