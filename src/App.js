@@ -37,13 +37,13 @@ function App() {
 
             <div className="col-lg-10 col-sm-12">
               <h1 className="heading">Viktor Österholm</h1>
-              <p className="contact__email">Software Developer</p>
+              <p className="contact__email">CS student and Software Developer</p>
               <p className="about__text">
                 Hi, I’m Viktor. I love creating web sites and web applications.
-                Web development is something I really enjoy, and I keep on improving myself every day.
+                Web development, problem solving and even designing websites is something I really enjoy, and I strive to improve my skills in these areas every day.
                 I currently focus on front-end development, but I also have experience with back-end technologies like Node and PHP (also currently learning a bit of Java).
-                I am currently studying towards my Master’s degree in computer science. </p>
-              <button className="btn btn-primary btn-left">
+                I am currently studying towards my Master’s degree in computer science. In my spare time I like to play drums and write music.</p>
+              <button className="btn btn-primary btn-left hidden">
                 <a href="https://dl.dropboxusercontent.com/s/uytjfspwabfbbyq/viktor%C3%96Resume.pdf?dl=0">
                   <img className="icon-small" src={iconDL} alt="" />
                   Download Resumé
@@ -58,7 +58,7 @@ function App() {
         {/* main projects */}
         <div className="container">
           <h2 className="heading">Project Highlights</h2>
-          <p className="section__description">These are bigger projects that took a longer time to make, or I think are interesting.</p>
+          <p className="section__description">These are projects that took a bit longer to make, or I think are interesting.</p>
           {projectsData.map((project, i) => {
             if (project.importance !== 1) return null;
             else {
@@ -105,7 +105,7 @@ function App() {
       <section id="education">
         <div className="container">
           <h2 className="heading">Education</h2>
-          <p><strong>B.Sc in Computer Science</strong></p>
+          <p><strong>Bachelor of Science - Computer Science</strong></p>
           <p>Åbo Akademi University (2015 - 2019)</p>
         </div>
       </section>

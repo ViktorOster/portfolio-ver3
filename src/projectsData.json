@@ -29,7 +29,7 @@
         "importance": 1
     },
     {
-        "name": "Clothing Store",
+        "name": "Web Shop (Clothing)",
         "description": "Clothing store that sells jackets and shoes. Product data is stored in a JavaScript object on a Node backend and fed to Pug templates. The site is responsive and has a simple search functionality. Shopping cart items are stored in localstorage.",
         "technologies": [
             "Pug.js",
@@ -47,7 +47,7 @@
         "importance": 2
     },
     {
-        "name": "Beauty Shop",
+        "name": "Web Shop (Beauty and Cosmetics)",
         "description": "A Beauty Shop built with PHP. Product data is stored in a MySQL database. The shop functionality (filtering by category, searching) is implemented using AJAX calls with JavaScript to an API endpoint on the server for improved responsiveness. The shopping basket data is stored in localhost. The home page graphics were made using Figma.",
         "technologies": [
             "PHP",
