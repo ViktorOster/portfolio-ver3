@@ -1,0 +1,35 @@
+/* PROJECTS */
+.project {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.project__title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.project-small__title {
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.project__techs {
+    font-style: italic;
+}
+.project__img {
+    box-sizing: border-box;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+.project-small {
+    margin-bottom: 20px;
+}
+
+.project-small__description {
+    height: 48px;
+    overflow:hidden;
+    margin: 0;
+    display: none;
+}
+.project-small__techs {
+    margin-bottom: 2px;
+    font-size: 15px;
+}

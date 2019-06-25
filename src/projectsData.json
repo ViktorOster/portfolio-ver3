@@ -1,0 +1,184 @@
+[
+    {
+        "name": "Stock Application",
+        "description": "Stock portfolio management system that supports multiple portfolios and stocks. Stock data is fetched from Alpha Vantage API. Multiple stocks can be graphed simultaneously inside a user specified time window. Portfolios and stocks are stored in localstorage.",
+        "technologies": [
+            "React.js",
+            "JavaScript",
+            "HTML5",
+            "CSS3"
+        ],
+        "category": "web",
+        "image": "SPMS_laptop.png",
+        "projectLink": "https://viktoroster.github.io/spms-app/",
+        "codeLink": "https://github.com/ViktorOster/spms-app/tree/master",
+        "importance": 1
+    },
+    {
+        "name": "Wave Drawing Synth",
+        "description": "A synth based on user drawn wave shapes, made with the Web Audio API. Points can be added to a canvas to create custom wave shapes that can be played using the keyboard or touch controls on mobile. Tested to be working with the Chrome browser on desktop and mobile.",
+        "technologies": [
+            "JavaScript",
+            "HTML5",
+            "CSS3"
+        ],
+        "category": "web",
+        "image": "wavesynth_laptop.png",
+        "projectLink": "https://viktoroster.github.io/draw-waveshape/views/index.html",
+        "codeLink": "https://github.com/ViktorOster/draw-waveshape",
+        "importance": 1
+    },
+    {
+        "name": "Clothing Store",
+        "description": "Clothing store that sells jackets and shoes. Product data is stored in a JavaScript object on a Node backend and fed to Pug templates. The site is responsive and has a simple search functionality. Shopping cart items are stored in localstorage.",
+        "technologies": [
+            "Pug",
+            "Node.js",
+            "JavaScript",
+            "HTML5",
+            "Sass",
+            "CSS3"
+        ],
+        "category": "web",
+        "image": "Mockup2.png",
+        "projectLink": "https://jackets-n-shoes.herokuapp.com/",
+        "codeLink": "https://github.com/ViktorOster/clothingstore",
+        "importance": 2
+    },
+    {
+        "name": "Beauty Shop",
+        "description": "A Beauty Shop built with PHP. Product data is stored in a MySQL database. The shop functionality (filtering by category, searching) is implemented using AJAX calls with JavaScript to an API endpoint on the server for improved responsiveness. The shopping basket data is stored in localhost. The home page graphics were made using Figma.",
+        "technologies": [
+            "PHP",
+            "MySQL",
+            "JavaScript",
+            "HTML5",
+            "CSS3"
+        ],
+        "category": "web",
+        "image": "Mockup2.png",
+        "projectLink": "https://php-beauty-shop.herokuapp.com/",
+        "codeLink": "https://github.com/ViktorOster/php-beauty-shop",
+        "importance": 2
+    },
+    {
+        "name": "Developer Job Dashboard",
+        "description": "A Dasboard built with React for browsing and analyzing collected job data. Apart from browsing archived jobs, the application can be used to visualize keyword data and trends. The data is fetched from API an endpoint on a Node backend running Express. The data is stored in mongoDB Atlas cloud database.",
+        "technologies": [
+            "React",
+            "Node",
+            "Express",
+            "MongoDB",
+            "HTML5",
+            "CSS3"
+        ],
+        "category": "web",
+        "image": "Mockup2.png",
+        "projectLink": "https://dev-job-board.herokuapp.com/",
+        "codeLink": "https://github.com/ViktorOster/dev-job-board",
+        "importance": 2
+    },
+    {
+        "name": "Medical Dashboard",
+        "description": "A simple patient dashboard for a fictional medical company. Users can register or login to view their healthcare related data and fill in questionnaires. Data is stored in an SQL database. Use email: mike@mail.com, password: password to login and view data.",
+        "technologies": [
+            "Laravel",
+            "PHP",
+            "MySQL",
+            "HTML5",
+            "CSS3"
+        ],
+        "category": "web",
+        "image": "Mockup2.png",
+        "projectLink": "https://medical-dashboard.herokuapp.com/",
+        "codeLink": "https://github.com/ViktorOster/csapp",
+        "importance": 2
+    },
+    {
+        "name": "E-Auction Site",
+        "description": "An E-Auction site built with Python and Django. Has functionalities such as posting and bidding on posts, translation, logging in and creating and updating a user. The site is deployed to pythonanywhere and the data is stored in an SQLite3 database",
+        "technologies": [
+            "Django",
+            "Python",
+            "SQSLIte3",
+            "HTML5",
+            "CSS3"
+        ],
+        "category": "web",
+        "image": "eAuction_laptop.png",
+        "projectLink": "http://osterholmv.pythonanywhere.com/",
+        "codeLink": "https://github.com/ViktorOster/auction-django",
+        "importance": 1
+    },
+    {
+        "name": "Sketchboard and Gallery",
+        "description": "A sketchboard / gallery application using HTML5 canvas that allows users to draw and post drawings to a public gallery. The drawings are stored in JSON-format in a simple NodeJS backend.",
+        "technologies": [
+            "Node.js",
+            "JavaScript",
+            "HTML5",
+            "CSS3"
+        ],
+        "category": "web",
+        "image": "Mockup2.png",
+        "projectLink": "https://sketch-gallery.glitch.me/",
+        "codeLink": "https://github.com/ViktorOster/sketch-gallery",
+        "importance": 2
+    },
+    {
+        "name": "Video Gallery",
+        "description": "A video gallery made with React.js. Play videos in different categories",
+        "technologies": [
+            "React.js",
+            "JavaScript",
+            "HTML5",
+            "CSS3"
+        ],
+        "category": "web",
+        "image": "videoGalleryScreenshot.png",
+        "projectLink": "https://viktoroster.github.io/video-gallery/",
+        "codeLink": "https://github.com/ViktorOster/video-gallery/tree/master",
+        "importance": 3
+    },
+    {
+        "name": "Mech Game (Demo)",
+        "description": "Mech-type game demo done with Unity. Used Blender for models and textures.",
+        "technologies": [
+            "Unity",
+            "C#",
+            "Blender"
+        ],
+        "category": "unity",
+        "image": "mechDemoScreenshot.png",
+        "projectLink": "https://viktoroster.github.io/mech-demo-build/",
+        "codeLink": "null",
+        "importance": 2
+    },
+    {
+        "name": "Third Person Shooter (Demo)",
+        "description": "Demo of a third person shooter type game with Unity. Used Blender for models and textures.",
+        "technologies": [
+            "Unity",
+            "C#",
+            "Blender"
+        ],
+        "category": "unity",
+        "image": "alienGameDemoScreenshot.png",
+        "projectLink": "https://viktoroster.github.io/alien-demo-build/",
+        "codeLink": "null",
+        "importance": 2
+    },
+    {
+        "name": "Hack 'n' Slash Game (Demo)",
+        "description": "Top down hack and slash game made at a university course. Contains one playable level.",
+        "technologies": [
+            "Unity",
+            "C#"
+        ],
+        "category": "unity",
+        "image": "ninjaGameDemoScreenshot.png",
+        "projectLink": "https://viktoroster.github.io/ninja-game-build/",
+        "codeLink": "null",
+        "importance": 2
+    }
+]
